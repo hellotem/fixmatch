@@ -62,7 +62,7 @@ Codebase for ImageNet experiments located in the [imagenet subdirectory](https:/
 
 All commands must be ran from the project root. The following environment variables must be defined:
 ```bash
-export ML_DATA="path to where you want the datasets saved"
+export ML_DATA="path to where you want the datasets saved" #location of saved augmentation data
 export PYTHONPATH=$PYTHONPATH:.
 ```
 
